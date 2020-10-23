@@ -12,7 +12,7 @@ source("Header_TT.R")
 datadir = "~/git/covid_data/"
 outdir = "~/git/covid_data/output/"
 outdir_plots = "~/git/covid_data/output/plots/"
-outdir_plots_send = "~/git/covid_data/output/plots/to_send"
+#outdir_plots_send = "~/git/covid_data/output/plots/to_send"
 outdir_stats = "~/git/covid_data/output/stats/"
 
 #==========================================================
