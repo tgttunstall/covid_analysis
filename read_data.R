@@ -19,10 +19,14 @@ outdir_stats = "~/git/covid_data/output/stats/"
 
 #==========================================================
 # input data files
+infile_covid = paste0(datadir,"/covid19_v3.csv")
+
 infile_icu_wf = paste0(datadir,"/icu_covid_wf_v3.csv")
 infile_icu_lf = paste0(datadir,"/icu_covid_lf_v3.csv")
 #%%========================================================
-# read file
+# read files
+my_data = read.csv(infile_covid, stringsAsFactors = F) 
+
 wf_data = read.csv(infile_icu_wf , stringsAsFactors = F) 
 dim(wf_data)
 

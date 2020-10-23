@@ -10,6 +10,10 @@ getwd()
 ############################################################
 # source data
 source("read_data.R")
+
+# clear unwanted variables
+rm(my_data)
+
 ############################################################
 #============================
 # Output: unpaired analysis
