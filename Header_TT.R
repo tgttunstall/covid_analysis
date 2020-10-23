@@ -1,3 +1,4 @@
+#!/usr/bin/Rscript  
 #if (!require(tidyverse)){
 #install.packages("tidyverse")
 #}
@@ -84,6 +85,9 @@ library(qwraps2)
 
 #library(ComplexHeatmap)
 
+########################################################################
+# My functions
+########################################################################
 
 my_kurtosis <- function(x) {  
   m4 <- mean((x - mean(x))^4) 
