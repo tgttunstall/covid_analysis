@@ -12,7 +12,7 @@ getwd()
 source("read_data.R")
 #==========================================================
 # define output filenames
-summary_stats_timepoint_combined = paste0(outdir_stats, "summary_stats_timepoint_v2.csv")
+summary_stats_timepoint_combined = paste0(outdir_stats, "summary_stats_timepoint_v3.csv")
 
 #==========================================================
 # data assignment for stats
