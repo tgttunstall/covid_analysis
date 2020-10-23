@@ -27,12 +27,10 @@ rm(my_data)
 output_plots = paste0(outdir_plots, "output_plots.pdf")
 corr_and_hmap = paste0(outdir_plots, "corr_hmap.pdf")
 
-#%%========================================================
-# read file
+############################################################
 # data assignment for plots
 wf = wf_data
 lf = lf_data
-
 #=====================
 # data for plots: LF
 #=====================
