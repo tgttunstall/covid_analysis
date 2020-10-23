@@ -2,3 +2,5 @@ del
 scratch
 example
 examples
+.Rhistory
+.RData
