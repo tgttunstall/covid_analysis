@@ -3,10 +3,7 @@ getwd()
 setwd('~/git/covid_analysis/')
 getwd()
 ############################################################
-# TASK: basic plots
-
-# useful links:
-# http://www.sthda.com/english/wiki/ggplot2-dot-plot-quick-start-guide-r-software-and-data-visualization
+# TASK: KS test b/w outcome groups for ALL timepoints (cumulative)
 ############################################################
 # source data
 source("read_data.R")
