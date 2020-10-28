@@ -83,6 +83,8 @@ pdf(output_plots, width=15, height=12)
 # y = Linear (Levels)
 # coloured: outcome
 # ====================================
+my_comparisons <- list( c("t1", "t2"), c("t2", "t3"), c("t1", "t3") )
+
 y_value = "value"
 my_title1 = "Boxplots of mediators at t1: linear scale"
 
